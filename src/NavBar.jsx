@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import { lazy, Suspense } from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
 
@@ -11,14 +11,19 @@ const NavBar = () => {
   return (
     <>
         <nav>
-
+            <div className='items-center justify-center space-x-5'>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/services'>Services</Link>
+                <Link to='/contact'>Contact</Link>
+            </div>
         </nav>
 
         <Suspense fallback={<div className='items-center justify-center'><div>Loading...</div></div>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/team" element={<About />} />
-            <Route path="/media" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
           </Routes>
       </Suspense>
