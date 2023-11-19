@@ -15,17 +15,19 @@ const Services = lazy(() => import('./Services'))
 const NavBar = () => {
   return (
     <>
-        <nav className='relative'>
-            <div className='flex items-center justify-center space-x-5'>
-                <Link to='/' className='z-10'>Home</Link>
-                <Link to='/about' className='z-10'>About</Link>
-                <Link to='/services' className='z-10'>Services</Link>
-                <Link to='/contact' className='z-10'>Contact</Link>
+        <nav className='relative fixed h-36 bg-cover bg-center bg-BG '>
+            <div className='absolute bg-white inset-0 bg-opacity-60 '>
+                <div className='flex items-center justify-center space-x-5'>
+                    <Link to='/' className='z-10'>Home</Link>
+                    <Link to='/about' className='z-10'>About</Link>
+                    <Link to='/services' className='z-10'>Services</Link>
+                    <Link to='/contact' className='z-10'>Contact</Link>
+                </div>
+                <div className='absolute flex items-center justify-center left-1/2 transform -translate-x-1/2 -mt-6  bg-opacity-60'>
+                    <Link to='/'>
+                        <img className='w-80 h-44 scale-[2]' src={logo} alt='logo'></img>
+                    </Link>
             </div>
-            <div className='absolute flex items-center justify-center mb-40 left-1/2 transform -translate-x-1/2'>
-                <Link to='/'>
-                    <img className='w-60 h-36 scale-[2]' src={logo} alt='logo'></img>
-                </Link>
             </div>
         </nav>
 
