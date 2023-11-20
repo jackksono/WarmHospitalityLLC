@@ -17,7 +17,7 @@ const NavBar = () => {
     <>
         <nav className='relative fixed h-36 bg-cover bg-center bg-BG '>
             <div className='absolute bg-white inset-0 bg-opacity-60 '>
-                <div className='flex items-center justify-center space-x-5'>
+                <div className='flex items-center justify-center space-x-6'>
                     <Link to='/' className='z-20'>Home</Link>
                     <Link to='/about' className='z-20'>About</Link>
                     <Link to='/services' className='z-20'>Services</Link>
