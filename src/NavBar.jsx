@@ -15,7 +15,7 @@ const Services = lazy(() => import('./Services'))
 const NavBar = () => {
   return (
     <>
-        <nav className='relative h-36 bg-cover bg-center bg-BG bg-fixed '>
+        <div className='relative h-36 bg-cover bg-center bg-BG bg-fixed'>
             <div className='absolute bg-color-BG inset-0 bg-opacity-5 '>
                 <div className='flex items-center justify-center space-x-5'>
                     <Link to='/' className='z-20'>Home</Link>
@@ -29,7 +29,7 @@ const NavBar = () => {
                     </Link>
             </div>
             </div>
-        </nav>
+        </div>
 
         <Suspense fallback={<div className='items-center justify-center'><div>Loading...</div></div>}>
           <Routes>

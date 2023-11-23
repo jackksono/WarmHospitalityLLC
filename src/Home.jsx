@@ -27,7 +27,6 @@ const Home = () => {
     return (
         <>
           <div className=' min-h-screen bg-cover bg-center bg-no-repeat bg-BG bg-fixed'>
-            <div className='absolute'>
                 <div className='inset-0 bg-color-BG bg-opacity-60 flex items-center justify-center fixed'>
                     <div className='flex flex-row justify-center mt-60 '>
                         <div className='parallax-element ' data-speed='0.05'>
@@ -38,7 +37,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
           </div>
           <div className='flex flex-col bg-color-BG h-screen justify-center items-center relative z-10'>
             <div className='large-container flex flex-col items-center text-justify'>
