@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/WarmHospitalityLLC/static/css/main.6aa29bbf.css",
+    "main.js": "/WarmHospitalityLLC/static/js/main.f89e6d05.js",
+    "static/js/189.e02778c9.chunk.js": "/WarmHospitalityLLC/static/js/189.e02778c9.chunk.js",
+    "static/js/188.5bac5f77.chunk.js": "/WarmHospitalityLLC/static/js/188.5bac5f77.chunk.js",
+    "static/js/72.83c5fc11.chunk.js": "/WarmHospitalityLLC/static/js/72.83c5fc11.chunk.js",
+    "static/js/596.1deb1c2b.chunk.js": "/WarmHospitalityLLC/static/js/596.1deb1c2b.chunk.js",
+    "static/media/3.jpg": "/WarmHospitalityLLC/static/media/3.a135483b44ee58a50ba8.jpg",
+    "static/media/background2.jpg": "/WarmHospitalityLLC/static/media/background2.d82a70f1fec35316877c.jpg",
+    "static/media/3.1.jpg": "/WarmHospitalityLLC/static/media/3.1.42eb844d5c0d8f4e1fc1.jpg",
+    "static/media/4.1.jpg": "/WarmHospitalityLLC/static/media/4.1.1e59876e85d2bb19b4f0.jpg",
+    "static/media/4.jpg": "/WarmHospitalityLLC/static/media/4.ae7d9d6435c8b693fcff.jpg",
+    "static/media/2.jpg": "/WarmHospitalityLLC/static/media/2.17ce616c5125f69cda43.jpg",
+    "static/media/1.jpg": "/WarmHospitalityLLC/static/media/1.3164432f1a52cabcc1b3.jpg",
+    "static/media/1 (4).png": "/WarmHospitalityLLC/static/media/1 (4).4517a7c0202e5c2f71d6.png",
+    "index.html": "/WarmHospitalityLLC/index.html",
+    "main.6aa29bbf.css.map": "/WarmHospitalityLLC/static/css/main.6aa29bbf.css.map",
+    "main.f89e6d05.js.map": "/WarmHospitalityLLC/static/js/main.f89e6d05.js.map",
+    "189.e02778c9.chunk.js.map": "/WarmHospitalityLLC/static/js/189.e02778c9.chunk.js.map",
+    "188.5bac5f77.chunk.js.map": "/WarmHospitalityLLC/static/js/188.5bac5f77.chunk.js.map",
+    "72.83c5fc11.chunk.js.map": "/WarmHospitalityLLC/static/js/72.83c5fc11.chunk.js.map",
+    "596.1deb1c2b.chunk.js.map": "/WarmHospitalityLLC/static/js/596.1deb1c2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aa29bbf.css",
+    "static/js/main.f89e6d05.js"
+  ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/72.83c5fc11.chunk.js","mappings":"sKAEA,MAMA,EANgBA,KAEZC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,W","sources":["Contact.jsx"],"sourcesContent":["import React from 'react'\n\nconst Contact = () => {\n  return (\n    <div>Contact</div> //start contact form using emailjs\n  )\n}\n\nexport default Contact"],"names":["Contact","_jsx","children"],"sourceRoot":""}
