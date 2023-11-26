@@ -41,9 +41,15 @@ const Services = () => {
           </div>
     </div>
 
-    <div className='grid grid-cols-2'>
-      <img src={imageOne} alt='imageOne'></img>
-      <p>Tester</p>
+    <div className='z-10 flex flex-col h-screen bg-color-BG'>
+      <div className='z-10 flex items-center justify-center text-center bg-color-BG'>
+        <h1>OUR SERVICES</h1>
+      </div>
+      
+      <div className='z-10 grid grid-cols-2 bg-color-BG'>
+        <img className='h-[400px]' src={imageOne} alt='imageOne'></img>
+        <p className=' bg-color-BG'>Tester</p>
+      </div>
     </div>
     </>
   )
