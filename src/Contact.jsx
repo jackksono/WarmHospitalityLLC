@@ -1,4 +1,4 @@
-import React, {useState, useRef}  from "react"
+import React, {useState, useEffect}  from "react"
 import emailjs from '@emailjs/browser'
 
 
@@ -13,6 +13,26 @@ const Contact = () => {
   const [ data, setData ] = useState({name:"", lastName:"", email:"", phone:"", message:""})
     const [ result, showResult ] = useState(false)
     const [ validEmail, setValidEmail ] = useState(false)
+
+
+    useEffect(() => {
+       
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        const parallaxElements = document.querySelectorAll('.parallax-element');
+  
+        parallaxElements.forEach((element) => {
+          const speed = element.dataset.speed;
+          element.style.transform = `translateY(${scrollPosition * speed}px)`;
+        });
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
 
     const handleChange = (e) => {
         const name = e.target.name
@@ -59,11 +79,13 @@ setTimeout(() => {
 }, 10000)
 
 return (
-    <div className="min-h-screen text-3xl text-center bg-fixed bg-center bg-no-repeat bg-cover bg-BG font-Raleway">
+  
+    <div className="z-10 min-h-screen text-3xl text-center bg-fixed bg-center bg-no-repeat bg-cover parallax-element bg-BG font-Raleway">
       <div className="fixed inset-0 flex flex-col items-center justify-center w-screen pt-48 overflow-x-hidden bg-color-BG bg-opacity-60">
         <h1 className="pt-32 text-5xl text-black lg:pt-72">Contact <span className="text-black">Us</span></h1>
         <p className="pt-4 text-xs text-black sm:text-base lg:pt-10 lg:text-lg">Please feel free to reach out with any questions here or email us at info@warmhospitalitygroup.com</p>
-        <div className="flex items-center justify-center m-4 lg:my-0 sm:w-11/12 sm:h-full ">
+
+        <div className="flex items-center justify-center m-4 lg:pt-20 lg:my-0 sm:w-11/12 sm:h-full ">
             <div className="w-full">
                 <form className="flex flex-col mx-auto text-center lg:pt-10"  method="post" onSubmit={sendMail}>
                     <div className="flex mb-2 space-x-5 sm:space-x-10">
@@ -101,6 +123,7 @@ return (
         </div>
         </div>
     </div>
+
   )
 }
 
