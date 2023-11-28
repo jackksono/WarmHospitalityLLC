@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/WarmHospitalityLLC/static/css/main.388c93c6.css",
-    "main.js": "/WarmHospitalityLLC/static/js/main.249f6d49.js",
-    "static/js/113.f46a8dcc.chunk.js": "/WarmHospitalityLLC/static/js/113.f46a8dcc.chunk.js",
-    "static/js/188.5bac5f77.chunk.js": "/WarmHospitalityLLC/static/js/188.5bac5f77.chunk.js",
-    "static/js/111.179c45a7.chunk.js": "/WarmHospitalityLLC/static/js/111.179c45a7.chunk.js",
+    "main.css": "/WarmHospitalityLLC/static/css/main.5580cf52.css",
+    "main.js": "/WarmHospitalityLLC/static/js/main.87df5b17.js",
+    "static/js/113.27e2fd05.chunk.js": "/WarmHospitalityLLC/static/js/113.27e2fd05.chunk.js",
+    "static/js/188.31a61304.chunk.js": "/WarmHospitalityLLC/static/js/188.31a61304.chunk.js",
+    "static/js/111.fb4def07.chunk.js": "/WarmHospitalityLLC/static/js/111.fb4def07.chunk.js",
     "static/js/76.6450f8de.chunk.js": "/WarmHospitalityLLC/static/js/76.6450f8de.chunk.js",
     "static/media/3.jpg": "/WarmHospitalityLLC/static/media/3.a135483b44ee58a50ba8.jpg",
     "static/media/background2.jpg": "/WarmHospitalityLLC/static/media/background2.d82a70f1fec35316877c.jpg",
@@ -16,15 +16,15 @@
     "static/media/1.jpg": "/WarmHospitalityLLC/static/media/1.3164432f1a52cabcc1b3.jpg",
     "static/media/1 (4).png": "/WarmHospitalityLLC/static/media/1 (4).4517a7c0202e5c2f71d6.png",
     "index.html": "/WarmHospitalityLLC/index.html",
-    "main.388c93c6.css.map": "/WarmHospitalityLLC/static/css/main.388c93c6.css.map",
-    "main.249f6d49.js.map": "/WarmHospitalityLLC/static/js/main.249f6d49.js.map",
-    "113.f46a8dcc.chunk.js.map": "/WarmHospitalityLLC/static/js/113.f46a8dcc.chunk.js.map",
-    "188.5bac5f77.chunk.js.map": "/WarmHospitalityLLC/static/js/188.5bac5f77.chunk.js.map",
-    "111.179c45a7.chunk.js.map": "/WarmHospitalityLLC/static/js/111.179c45a7.chunk.js.map",
+    "main.5580cf52.css.map": "/WarmHospitalityLLC/static/css/main.5580cf52.css.map",
+    "main.87df5b17.js.map": "/WarmHospitalityLLC/static/js/main.87df5b17.js.map",
+    "113.27e2fd05.chunk.js.map": "/WarmHospitalityLLC/static/js/113.27e2fd05.chunk.js.map",
+    "188.31a61304.chunk.js.map": "/WarmHospitalityLLC/static/js/188.31a61304.chunk.js.map",
+    "111.fb4def07.chunk.js.map": "/WarmHospitalityLLC/static/js/111.fb4def07.chunk.js.map",
     "76.6450f8de.chunk.js.map": "/WarmHospitalityLLC/static/js/76.6450f8de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.388c93c6.css",
-    "static/js/main.249f6d49.js"
+    "static/css/main.5580cf52.css",
+    "static/js/main.87df5b17.js"
   ]
 }
