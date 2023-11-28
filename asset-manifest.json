@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/WarmHospitalityLLC/static/css/main.5580cf52.css",
-    "main.js": "/WarmHospitalityLLC/static/js/main.87df5b17.js",
+    "main.css": "/WarmHospitalityLLC/static/css/main.cc5ab660.css",
+    "main.js": "/WarmHospitalityLLC/static/js/main.05e15919.js",
     "static/js/113.27e2fd05.chunk.js": "/WarmHospitalityLLC/static/js/113.27e2fd05.chunk.js",
-    "static/js/188.31a61304.chunk.js": "/WarmHospitalityLLC/static/js/188.31a61304.chunk.js",
+    "static/js/699.459e5eaa.chunk.js": "/WarmHospitalityLLC/static/js/699.459e5eaa.chunk.js",
     "static/js/111.fb4def07.chunk.js": "/WarmHospitalityLLC/static/js/111.fb4def07.chunk.js",
     "static/js/76.6450f8de.chunk.js": "/WarmHospitalityLLC/static/js/76.6450f8de.chunk.js",
     "static/media/3.jpg": "/WarmHospitalityLLC/static/media/3.a135483b44ee58a50ba8.jpg",
@@ -11,20 +11,21 @@
     "static/media/3.1.jpg": "/WarmHospitalityLLC/static/media/3.1.42eb844d5c0d8f4e1fc1.jpg",
     "static/media/4.1.jpg": "/WarmHospitalityLLC/static/media/4.1.1e59876e85d2bb19b4f0.jpg",
     "static/media/4.jpg": "/WarmHospitalityLLC/static/media/4.ae7d9d6435c8b693fcff.jpg",
+    "static/media/TeamImage.jpg": "/WarmHospitalityLLC/static/media/TeamImage.33faab6d6018d3df3f78.jpg",
     "static/media/2.jpg": "/WarmHospitalityLLC/static/media/2.17ce616c5125f69cda43.jpg",
     "static/media/PracticeConc.jpg": "/WarmHospitalityLLC/static/media/PracticeConc.3d2fc3bafcf60dd8cbd2.jpg",
     "static/media/1.jpg": "/WarmHospitalityLLC/static/media/1.3164432f1a52cabcc1b3.jpg",
     "static/media/1 (4).png": "/WarmHospitalityLLC/static/media/1 (4).4517a7c0202e5c2f71d6.png",
     "index.html": "/WarmHospitalityLLC/index.html",
-    "main.5580cf52.css.map": "/WarmHospitalityLLC/static/css/main.5580cf52.css.map",
-    "main.87df5b17.js.map": "/WarmHospitalityLLC/static/js/main.87df5b17.js.map",
+    "main.cc5ab660.css.map": "/WarmHospitalityLLC/static/css/main.cc5ab660.css.map",
+    "main.05e15919.js.map": "/WarmHospitalityLLC/static/js/main.05e15919.js.map",
     "113.27e2fd05.chunk.js.map": "/WarmHospitalityLLC/static/js/113.27e2fd05.chunk.js.map",
-    "188.31a61304.chunk.js.map": "/WarmHospitalityLLC/static/js/188.31a61304.chunk.js.map",
+    "699.459e5eaa.chunk.js.map": "/WarmHospitalityLLC/static/js/699.459e5eaa.chunk.js.map",
     "111.fb4def07.chunk.js.map": "/WarmHospitalityLLC/static/js/111.fb4def07.chunk.js.map",
     "76.6450f8de.chunk.js.map": "/WarmHospitalityLLC/static/js/76.6450f8de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5580cf52.css",
-    "static/js/main.87df5b17.js"
+    "static/css/main.cc5ab660.css",
+    "static/js/main.05e15919.js"
   ]
 }
