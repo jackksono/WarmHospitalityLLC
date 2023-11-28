@@ -59,7 +59,8 @@ setTimeout(() => {
 }, 10000)
 
 return (
-    <div className="flex flex-col items-center justify-center text-3xl text-center max-h-min bg-color-BG font-Raleway">
+    <div className="min-h-screen text-3xl text-center bg-fixed bg-center bg-no-repeat bg-cover bg-BG font-Raleway">
+      <div className="fixed inset-0 flex flex-col items-center justify-center w-screen pt-48 overflow-x-hidden bg-color-BG bg-opacity-60">
         <h1 className="pt-32 text-5xl text-black lg:pt-72">Contact <span className="text-black">Us</span></h1>
         <p className="pt-4 text-xs text-black sm:text-base lg:pt-10 lg:text-lg">Please feel free to reach out with any questions here or email us at info@warmhospitalitygroup.com</p>
         <div className="flex items-center justify-center m-4 lg:my-0 sm:w-11/12 sm:h-full ">
@@ -97,6 +98,7 @@ return (
                     <h2 className= "pt-5 text-lg">{result ? <Result/> : null}</h2> 
                 </form>  
             </div>
+        </div>
         </div>
     </div>
   )
