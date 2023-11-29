@@ -57,7 +57,7 @@ const Services = () => {
             </div>
             
             <div className='flex flex-col items-center justify-center'>
-              <h1 className='text-center'>CONCIERGE SERVICE</h1>
+              <h2 className='text-center'>CONCIERGE SERVICE</h2>
               <p className=' bg-color-BG'>Local Expertise: With a deep understanding of Las Vegas, our consultants have insider knowledge and connections that ensure you experience the city to the fullest.</p>
               <p>Tailored Experiences: We believe that every client is unique. We pride ourselves on delivering personalized solutions that cater to your specific needs and desires.</p>
               <p>Unparalleled Service: Our commitment to excellence means we go above and beyond to make your stay in Las Vegas unforgettable.</p>
@@ -73,7 +73,7 @@ const Services = () => {
             
             
             <div className='flex flex-col items-center justify-center'>
-              <h1 className='text-center'>EVENT PLANNING</h1>
+              <h2 className='text-center'>EVENT PLANNING</h2>
               <p className=' bg-color-BG'>At Warm Hospitality, we are not just a destination for exceptional drinks and vibrant ambiance; we are your partners in crafting unforgettable events and celebrations. Our dedicated event planning services are designed to elevate your gatherings, ensuring they are stylish, memorable, and hassle-free.</p>
               <p>Our courteous and attentive staff will ensure that your guests are well taken care of, from the moment they arrive until the event's conclusion.</p>
               <p>Our experienced event planners will handle all the logistics, timelines, and coordination, so you can relax and enjoy your event without worrying about the details.</p>
@@ -95,7 +95,7 @@ const Services = () => {
             </div>
             
             <div className='flex flex-col items-center justify-center'>
-              <h1 className='text-center'>PREMIER HOSPITALITY CONSULTING</h1>
+              <h2 className='text-center'>PREMIER HOSPITALITY CONSULTING</h2>
               <p className=' bg-color-BG'>At Warm Hospitality, we pride ourselves on delivering comprehensive and unparalleled hospitality consulting services that are tailored to your unique needs and aspirations. </p>
               <p>With years of industry expertise, our team of seasoned professionals possesses an intricate understanding of the hospitality landscape, enabling us to provide you with strategic guidance and solutions that drive excellence and profitability.</p>
               <p>When you're ready to grow or diversify, we offer strategic guidance on market expansion, feasibility studies, and property development to help you seize new opportunities.</p>
@@ -111,7 +111,7 @@ const Services = () => {
             
             
             <div className='flex flex-col items-center justify-center'>
-              <h1 className='text-center'>WEB DEVELOPMENT</h1>
+              <h2 className='text-center'>WEB DEVELOPMENT</h2>
               <p className=' bg-color-BG'>Our custom web development services are tailored to enhance your presence and performance in the ever-evolving hospitality industry. </p>
               <p>Our team of experienced developers specializes in creating bespoke web solutions that not only showcase your brand's unique identity but also optimize user experience and functionality. </p>
               <p>Whether you need a cutting-edge booking platform, a seamless mobile app, or a website that tells your story effectively, our experts are here to bring your vision to life. </p>
