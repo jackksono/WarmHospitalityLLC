@@ -4,7 +4,10 @@ import imageOne from '../src/images/stock/4.1.jpg'
 import imageTwo from '../src/images/stock/4.jpg'
 
 
-import serviceOne from '../src/images/services/PracticeConc.jpg'
+import Concerige from '../src/images/services/Concierge.jpg'
+import EventPlanning from '../src/images/services/EventPlanning.jpg'
+import Premier from '../src/images/services/PremierConsulting.jpg'
+import WebDevelopment from '../src/images/services/WebDevelopment.jpg'
 
 const Services = () => {
     useEffect(() => {
@@ -32,10 +35,10 @@ const Services = () => {
           <div className='fixed inset-0 flex items-center justify-center bg-color-BG bg-opacity-60'>
               <div className='flex flex-row justify-center mt-60 '>
                   <div className='parallax-element ' data-speed='0.05'>
-                      <img className='h-[850px] w-[700px] mix-blend-multiply' src={imageOne} alt='imageOne' />
+                      <img className='h-[850px] w-[700px] mix-blend-multiply' loading='lazy' src={imageOne} alt='imageOne' />
                   </div>
                   <div className='parallax-element' data-speed='0.05'>
-                      <img className='h-[850px] w-[700px] mix-blend-multiply' src={imageTwo} alt='imageTwo' />
+                      <img className='h-[850px] w-[700px] mix-blend-multiply' loading='lazy' src={imageTwo} alt='imageTwo' />
                   </div>
               </div>
           </div>
@@ -53,7 +56,7 @@ const Services = () => {
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={serviceOne} alt='imageOne'></img>
+              <img className='w-full h-auto' src={Concerige} loading='lazy' alt='imageOne'></img>
             </div>
             
             <div className='flex flex-col items-center justify-center'>
@@ -81,7 +84,7 @@ const Services = () => {
             </div>
 
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={serviceOne} alt='imageOne'></img>
+              <img className='w-full h-auto' src={EventPlanning} loading='lazy' alt='imageOne'></img>
             </div>
           </div>
         </div>
@@ -91,7 +94,7 @@ const Services = () => {
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={serviceOne} alt='imageOne'></img>
+              <img className='w-full h-auto' src={Premier} loading='lazy' alt='imageOne'></img>
             </div>
             
             <div className='flex flex-col items-center justify-center'>
@@ -119,7 +122,7 @@ const Services = () => {
             </div>
 
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={serviceOne} alt='imageOne'></img>
+              <img className='w-full h-auto' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
             </div>
           </div> 
         </div>
