@@ -37,19 +37,15 @@ const Contact = () => {
     const handleChange = (e) => {
         const name = e.target.name
         const value = e.target.value
+
+        if (name === 'email') {
+          let re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+          setValidEmail(!re.test(value));
+      }
+      
         setData({...data, [name]:value})
     }
 
-    const twoCalls = (e) => {
-        onChangeValidEmail();
-        handleChange(e)
-    }
-
-    const onChangeValidEmail = () => {
-        let re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        if (re.test(data.email)) {setValidEmail(false)}
-        else setValidEmail(true)
-    }
     const EmailResponse = () => {
         return (
             <p>**Please enter a valid email**</p>
@@ -61,7 +57,7 @@ const Contact = () => {
 
         if (!validEmail) {
         emailjs
-        .sendForm('service_0bd37pt', 'template_sasqli3', e.target, 'iauEh19za_KMIe1hP')
+        .sendForm('service_6dy0jp8', 'template_0xg8atn', e.target, 'YwTj1knNMEuoJMbCX')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -102,7 +98,7 @@ return (
                     </div>
                     <label className="flex text-xs text-black sm:text-base lg:text-lg lg:pt-2">Email (required)</label>
                     <input className="flex text-xs border-2 h-7 border-black border-solid lg:mt-2 sm:text-base lg:px-[12px] lg:text-lg lg:h-auto lg:py-[8px] px-2" 
-                        type='email' name='email' id="" onChange={twoCalls} value={data.email} placeholder="example@gmail.com" required
+                        type='email' name='email' id="" onChange={handleChange} value={data.email} placeholder="example@gmail.com" required
                     />
                     <h2 className= "text-base font-semibold text-center text-red-500 underline ">{validEmail ? <EmailResponse/> : null }</h2>
                     <label className="flex text-xs text-black sm:text-base lg:text-lg lg:pt-2 ">Phone Number</label>
