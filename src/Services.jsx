@@ -8,7 +8,7 @@ import Concerige from '../src/images/services/Concierge.jpg'
 import EventPlanning from '../src/images/services/EventPlanning.jpg'
 import Premier from '../src/images/services/PremierConsulting.jpg'
 import WebDevelopment from '../src/images/services/WebDevelopment.jpg'
-
+import SocialMedia from '../src/images/services/SocialMediaM.jpg'
 const Services = () => {
     useEffect(() => {
        
@@ -35,10 +35,10 @@ const Services = () => {
           <div className='fixed inset-0 flex items-center justify-center bg-color-BG bg-opacity-60'>
               <div className='flex flex-row justify-center mt-60 '>
                   <div className='parallax-element ' data-speed='0.05'>
-                      <img className='h-[850px] w-[700px] mix-blend-multiply' loading='lazy' src={imageOne} alt='imageOne' />
+                      <img className='h-[850px] sm:w-[500px] 2xl:w-[700px] mix-blend-multiply' loading='lazy' src={imageOne} alt='imageOne' />
                   </div>
                   <div className='parallax-element' data-speed='0.05'>
-                      <img className='h-[850px] w-[700px] mix-blend-multiply' loading='lazy' src={imageTwo} alt='imageTwo' />
+                      <img className='h-[850px] sm:w-[500px] 2xl:w-[700px] mix-blend-multiply' loading='lazy' src={imageTwo} alt='imageTwo' />
                   </div>
               </div>
           </div>
@@ -125,6 +125,24 @@ const Services = () => {
               <img className='w-full h-auto' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
             </div>
           </div> 
+        </div>
+      </div>
+
+      <div className='z-10 bg-color-BG'>
+        <div className='my-10'>
+          <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
+            <div className='flex items-center justify-center'>
+              <img className='w-full h-auto' src={SocialMedia} loading='lazy' alt='imageOne'></img>
+            </div>
+            
+            <div className='flex flex-col items-center justify-center'>
+              <h2 className='text-center'>SOCIAL MEDIA MANAGEMENT</h2>
+              <p className=' bg-color-BG'>Connect with Confidence: Social Media Services unlock the full potential of your business, brand, or influence with our comprehensive offerings, covering Instagram, TikTok, Pinterest, and LinkedIn. </p>
+              <p>Our Social Media Management packages empower you to take control of your platforms while ensuring structure and consistency. </p>
+              <p>Need captivating content for your business? </p>
+              <p>Our Content Creation service has you covered, whether for one-time projects, photoshoots, or events. Elevate your social media game with our Strategy Packages, including brainstorming, content planning, monthly calendars, and trend customization for future success. </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

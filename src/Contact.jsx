@@ -11,7 +11,7 @@ const Result = () => {
 const Contact = () => {
 
   const [ data, setData ] = useState({name:"", lastName:"", email:"", phone:"", message:""})
-    const [ result, showResult ] = useState(false)
+    const [ result, showResult ] = useState(false) 
     const [ validEmail, setValidEmail ] = useState(false)
 
 
