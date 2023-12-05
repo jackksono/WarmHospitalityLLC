@@ -75,7 +75,7 @@ setTimeout(() => {
 }, 10000)
 
 return (
-  
+  <>
     <div className="z-10 min-h-screen text-3xl text-center bg-fixed bg-center bg-no-repeat bg-cover parallax-element bg-BG font-Raleway">
       <div className="fixed inset-0 flex flex-col items-center justify-center w-screen pt-32 overflow-x-hidden bg-color-BG bg-opacity-60">
         <h1 className="pt-32 text-5xl text-black lg:pt-40 xl:pt-72">Contact <span className="text-black">Us</span></h1>
@@ -119,7 +119,7 @@ return (
         </div>
         </div>
     </div>
-
+    </>
   )
 }
 
