@@ -25,7 +25,7 @@ const NavBar = () => {
         <div className='relative z-10 h-40 overflow-hidden overflow-y-hidden bg-fixed bg-center bg-cover bg-BG'>
             <div className='absolute inset-0 bg-opacity-60 bg-color-BG '>
                 <div className='flex items-center justify-center lg:space-x-8 2xl:space-x-10 font-Raleway'>
-                  <button className= {selectedPage.home ?'z-20 text-white font-semibold' : 'z-20 hover:text-white font-semibold'}
+                  <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
                       home: true,
@@ -36,7 +36,7 @@ const NavBar = () => {
                   }}>
                     <Link to='/' className='z-20 hover:text-white'>HOME</Link>
                   </button>
-                  <button className= {selectedPage.about ?'z-20 text-white font-semibold' : 'z-20 hover:text-white font-semibold'}
+                  <button className= {selectedPage.about ?'z-20 text-white font-semibold duration-200' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
                       home: false,
@@ -47,7 +47,7 @@ const NavBar = () => {
                   }}>
                     <Link to='/about' className='z-20 hover:text-white'>ABOUT</Link>
                   </button>
-                  <button className= {selectedPage.services ?'z-20 text-white font-semibold' : 'z-20 hover:text-white font-semibold'}
+                  <button className= {selectedPage.services ?'z-20 text-white font-semibold duration-200' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
                       home: false,
@@ -58,7 +58,7 @@ const NavBar = () => {
                   }}>
                      <Link to='/services' className='z-20 hover:text-white'>SERVICES</Link>
                   </button>
-                  <button className= {selectedPage.contact ?'z-20 text-white font-semibold' : 'z-20 hover:text-white font-semibold'}
+                  <button className= {selectedPage.contact ?'z-20 text-white font-semibold duration-200' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
                       home: false,
