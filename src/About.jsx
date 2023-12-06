@@ -42,9 +42,9 @@ const About = () => {
       </div>
 
 
-      <div className='relative z-10 flex flex-col items-center justify-center pt-40 min-h-max bg-color-BG'>
+      <div className='relative z-10 flex flex-col items-center justify-center pt-40 large-container min-h-max bg-color-BG'>
             <div className='flex flex-col items-center text-justify large-container font-Raleway'>
-                <h1 className=''>ABOUT US</h1>
+                <h1 className='pt-20'>ABOUT US</h1>
                 <div className='grid grid-cols-3 gap-8 pt-20'>
                   <div className='flex flex-col items-center'>  
                     <h2 className='relative text-center'>MICHELLE TRAN</h2>

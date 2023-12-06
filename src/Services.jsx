@@ -45,7 +45,7 @@ const Services = () => {
     </div>
 
 
-    <div className='z-10 flex flex-col h-screen bg-color-BG'>
+    <div className='z-10 flex flex-col h-screen large-container bg-color-BG'>
       <div className='z-10 bg-color-BG'>
         <div className='z-10 flex items-center justify-center h-full mb-20 text-center bg-color-BG font-Raleway'>
           <h1>OUR SERVICES</h1>
