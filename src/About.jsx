@@ -6,7 +6,8 @@ import imageTwo from '../src/images/stock/3.jpg'
 import TeamImage from '../src/images/stock/TeamImage.jpg'
 
 const About = () => {
-
+//increase margins on left and right 
+  //increase margin bottom
     useEffect(() => {
        
         const handleScroll = () => {

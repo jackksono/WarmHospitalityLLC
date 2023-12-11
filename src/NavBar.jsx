@@ -12,6 +12,7 @@ const Contact = lazy(() => import('./Contact'))
 const Services = lazy(() => import('./Services'))
 
 //mobile resizing using CSS
+
 const NavBar = () => {
 
   const [ selectedPage, setSelectedPage ] = useState({
