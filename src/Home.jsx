@@ -38,8 +38,8 @@ const Home = () => {
                     </div>
                 </div>
           </div>
-          <div className='relative z-10 flex flex-col items-center justify-center h-screen large-container bg-color-BG'>
-            <div className='flex flex-col items-center text-justify large-container font-Raleway'>
+          <div className='relative z-10 flex flex-col items-center justify-center h-screen mx-12 bg-color-BG'>
+            <div className='flex flex-col items-center text-justify font-Raleway'>
                 <h1>WHO WE ARE</h1>
                 <p className='pb-52'>
                     Welcome to Warm Hospitality, where passion, expertise, and creativity converge to redefine the world of hospitality. 
