@@ -74,7 +74,7 @@ const NavBar = () => {
                    
                     
                 </div>
-                <div className='absolute z-10 flex items-center justify-center -mt-6 transform -translate-x-1/2 left-1/2 bg-opacity-60'>
+                <div className='absolute z-10 flex items-center justify-center -mt-3 transform -translate-x-1/2 left-1/2 bg-opacity-60'>
                     <Link to='/'>
                         <img 
                           className='w-80 h-44 scale-[2]' 
