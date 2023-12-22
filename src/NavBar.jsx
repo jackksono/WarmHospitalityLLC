@@ -21,6 +21,21 @@ const NavBar = () => {
     contact: false,
     services: false
   })
+
+  const onToggleMenu = () => {
+    const navLinks = document.querySelector('.nav-links')
+    let tag = document.getElementById("menu")
+    tag.name = tag.name === "close" ? "menu" : "close"
+    navLinks.classList.toggle('hidden')
+  }
+
+  const toggleOff = () => {
+    const navLinks = document.querySelector('.nav-links')
+    let tag = document.getElementById("menu")
+    tag.name = tag.name === "menu" ? "close" : "menu"
+    navLinks.classList.toggle('hidden')
+  }
+  
   return (
     <>
         <div className='relative z-10 h-40 overflow-hidden overflow-y-hidden bg-fixed bg-center bg-cover bg-BG'>
