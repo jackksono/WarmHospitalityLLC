@@ -49,6 +49,7 @@ const NavBar = () => {
                       contact: false,
                       services: false
                     });
+                    toggleOff();
                   }}>
                     <Link to='/' className='z-20 hover:text-white'>HOME</Link>
                   </button>
@@ -60,6 +61,7 @@ const NavBar = () => {
                       contact: false,
                       services: false
                     });
+                    toggleOff();
                   }}>
                     <Link to='/about' className='z-20 hover:text-white'>ABOUT</Link>
                   </button>
@@ -71,6 +73,7 @@ const NavBar = () => {
                       contact: false,
                       services: true
                     });
+                    toggleOff();
                   }}>
                      <Link to='/services' className='z-20 hover:text-white'>SERVICES</Link>
                   </button>
@@ -82,6 +85,7 @@ const NavBar = () => {
                       contact: true,
                       services: false
                     });
+                    toggleOff();
                   }}>
                     <Link to='/contact' className='z-20 hover:text-white'>CONTACT</Link>
                   </button>
