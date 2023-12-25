@@ -38,10 +38,10 @@ const NavBar = () => {
   
   return (
     <>
-        <div className='relative z-10 h-40 overflow-hidden overflow-y-hidden bg-fixed bg-center bg-cover bg-BG'>
+        <div className='relative z-10 h-40 overflow-hidden overflow-y-hidden bg-fixed bg-center bg-cover bg-BG '>
             <div className='absolute inset-0 bg-opacity-60 bg-color-BG '>
-                <div className='flex items-center justify-center lg:space-x-8 2xl:space-x-10 font-Raleway'>
-                  <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200' : 'z-20 hover:text-white font-semibold duration-200'}
+                <div className='items-center justify-center hidden sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway nav-links sm:visible'>
+                  <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200 ' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
                       home: true,
@@ -88,6 +88,11 @@ const NavBar = () => {
                     
                    
                     
+                </div>
+                <div className="flex pt-10 pl-5 text-2xl text-color-text sm:hidden">
+                  <button>
+                      <ion-icon name="menu" id="menu" onClick={onToggleMenu} ></ion-icon>
+                  </button>
                 </div>
                 <div className='absolute z-10 flex items-center justify-center -mt-3 transform -translate-x-1/2 left-1/2 bg-opacity-60'>
                     <Link to='/'>
