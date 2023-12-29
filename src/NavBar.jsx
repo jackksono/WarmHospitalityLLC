@@ -35,7 +35,7 @@ const NavBar = () => {
     tag.name = tag.name === "menu" ? "close" : "menu"
     navLinks.classList.toggle('hidden')
   }
-  
+  //Configure mobile screening
   return (
     <>
         <div className='relative z-10 h-40 overflow-hidden overflow-y-hidden bg-fixed bg-center bg-cover bg-BG '>
