@@ -56,15 +56,15 @@ const Services = () => {
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={Concerige} loading='lazy' alt='imageOne'></img>
+              <img className='object-cover w-full h-full rounded-lg ' src={Concerige} loading='lazy' alt='imageOne'></img>
             </div>
             
             <div className='flex flex-col items-center justify-center'>
-              <h2 className='text-center'>CONCIERGE SERVICE</h2>
-              <p className=' bg-color-BG'>Local Expertise: With a deep understanding of Las Vegas, our consultants have insider knowledge and connections that ensure you experience the city to the fullest.</p>
-              <p>Tailored Experiences: We believe that every client is unique. We pride ourselves on delivering personalized solutions that cater to your specific needs and desires.</p>
-              <p>Unparalleled Service: Our commitment to excellence means we go above and beyond to make your stay in Las Vegas unforgettable.</p>
-              <p>When you choose Warm Hospitality, you're choosing to take your Las Vegas experience to the next level. Contact us today to start planning your exceptional journey through this extraordinary city.</p>
+              <h2 className='text-center underline underline-offset-8'>CONCIERGE SERVICE</h2>
+              <p className='mx-16 bg-color-BG'>Local Expertise: With a deep understanding of Las Vegas, our consultants have insider knowledge and connections that ensure you experience the city to the fullest.</p>
+              <p className='mx-16'>Tailored Experiences: We believe that every client is unique. We pride ourselves on delivering personalized solutions that cater to your specific needs and desires.</p>
+              <p className='mx-16'>Unparalleled Service: Our commitment to excellence means we go above and beyond to make your stay in Las Vegas unforgettable.</p>
+              <p className='mx-16'>When you choose Warm Hospitality, you're choosing to take your Las Vegas experience to the next level. Contact us today to start planning your exceptional journey through this extraordinary city.</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ const Services = () => {
             </div>
 
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={EventPlanning} loading='lazy' alt='imageOne'></img>
+              <img className='object-cover w-full h-full rounded-lg ' src={EventPlanning} loading='lazy' alt='imageOne'></img>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const Services = () => {
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={Premier} loading='lazy' alt='imageOne'></img>
+              <img className='object-cover w-full h-full rounded-lg ' src={Premier} loading='lazy' alt='imageOne'></img>
             </div>
             
             <div className='flex flex-col items-center justify-center'>
@@ -122,7 +122,7 @@ const Services = () => {
             </div>
 
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
+              <img className='object-cover w-full h-full rounded-lg ' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
             </div>
           </div> 
         </div>
@@ -132,7 +132,7 @@ const Services = () => {
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex items-center justify-center'>
-              <img className='w-full h-auto' src={SocialMedia} loading='lazy' alt='imageOne'></img>
+              <img className='object-cover w-full h-full rounded-lg ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
             </div>
             
             <div className='flex flex-col items-center justify-center'>

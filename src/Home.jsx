@@ -41,7 +41,8 @@ const Home = () => {
           <div className='relative z-10 flex flex-col items-center justify-center h-screen mx-12 bg-color-BG'>
             <div className='flex flex-col items-center text-justify font-Raleway'>
                 <h1>WHO WE ARE</h1>
-                <p className='pb-52'>
+                <h5 className='pb-5'>Las Vegas Professionals ~ Minority Women Owned </h5>
+                <p className='mx-32 pb-52'>
                     Welcome to Warm Hospitality, where passion, expertise, and creativity converge to redefine the world of hospitality. 
                     With a shared love for the art of hospitality and a wealth of experience in food and beverage, we bring a unique blend of 
                     culinary mastery and event planning finesse to the forefront. Our journey through the culinary world has instilled in us an
