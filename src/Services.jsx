@@ -144,18 +144,15 @@ const Services = () => {
               <h2 className='text-center'>WEB DEVELOPMENT</h2>
               <p className=' bg-color-BG'>Our custom web development services are tailored to enhance your presence and performance in the ever-evolving hospitality industry. </p>
               <p>Our team of experienced developers specializes in creating bespoke web solutions that not only showcase your brand's unique identity but also optimize user experience and functionality. </p>
-              <p>Whether you need a cutting-edge booking platform, a seamless mobile app, or a website that tells your story effectively, our experts are here to bring your vision to life. </p>
-              <p>With our custom web development services, you'll gain a competitive edge, increase online visibility, and provide your guests with a seamless and engaging digital experience.</p>
+              {/* <p>Whether you need a cutting-edge booking platform, a seamless mobile app, or a website that tells your story effectively, our experts are here to bring your vision to life. </p>
+              <p>With our custom web development services, you'll gain a competitive edge, increase online visibility, and provide your guests with a seamless and engaging digital experience.</p> */}
             </div>
-
             <div className='flex items-center justify-center'>
               <img className='object-cover w-full h-full rounded-lg ' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
             </div>
           </div> 
         </div>
       </div>
-
-      
     </div>
     </>
   )
