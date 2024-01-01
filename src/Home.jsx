@@ -3,6 +3,8 @@ import React, {useEffect} from 'react'
 import imageOne from '../src/images/stock/1.jpg'
 import imageTwo from '../src/images/stock/2.jpg'
 
+import Footer from '../src/Footer'
+
 const Home = () => {
 
     useEffect(() => {
@@ -42,7 +44,7 @@ const Home = () => {
             <div className='flex flex-col items-center text-justify font-Raleway'>
                 <h1>WHO WE ARE</h1>
                 <h5 className='pb-5'>Las Vegas Professionals ~ Minority Women Owned </h5>
-                <p className='mx-32 pb-52'>
+                <p className='mx-32'>
                     Welcome to Warm Hospitality, where passion, expertise, and creativity converge to redefine the world of hospitality. 
                     With a shared love for the art of hospitality and a wealth of experience in food and beverage, we bring a unique blend of 
                     culinary mastery and event planning finesse to the forefront. Our journey through the culinary world has instilled in us an
@@ -53,7 +55,11 @@ const Home = () => {
                 </p>
             </div>
           </div>
-        </>
+       
+        <div className='z-10 flex bg-white'>
+          <Footer></Footer>
+        </div>
+      </>
       );
       
 }
