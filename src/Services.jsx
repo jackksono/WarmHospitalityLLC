@@ -72,16 +72,15 @@ const Services = () => {
       <div className='z-10 bg-color-BG'>
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
-            <div className='flex items-center justify-center'>
-              <img className='object-cover w-full h-full rounded-lg ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
-            </div>
-            
             <div className='flex flex-col items-center justify-center'>
               <h2 className='text-center'>SOCIAL MEDIA MANAGEMENT</h2>
               <p className=' bg-color-BG'>Connect with Confidence: Social Media Services unlock the full potential of your business, brand, or influence with our comprehensive offerings, covering Instagram, TikTok, Pinterest, and LinkedIn. </p>
-              <p>Our Social Media Management packages empower you to take control of your platforms while ensuring structure and consistency. </p>
-              <p>Need captivating content for your business? </p>
-              <p>Our Content Creation service has you covered, whether for one-time projects, photoshoots, or events. Elevate your social media game with our Strategy Packages, including brainstorming, content planning, monthly calendars, and trend customization for future success. </p>
+              <p>Our Social Media Management packages empower you to take control of your platforms while ensuring structure and consistency.</p>
+              {/* <p>Need captivating content for your business? </p>
+              <p>Our Content Creation service has you covered, whether for one-time projects, photoshoots, or events. Elevate your social media game with our Strategy Packages, including brainstorming, content planning, monthly calendars, and trend customization for future success. </p> */}
+            </div>
+            <div className='flex items-center justify-center'>
+              <img className='object-cover w-full h-full rounded-lg ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
             </div>
           </div>
         </div>
@@ -98,22 +97,21 @@ const Services = () => {
               <h2 className='text-center'>PREMIER HOSPITALITY CONSULTING</h2>
               <p className=' bg-color-BG'>At Warm Hospitality, we pride ourselves on delivering comprehensive and unparalleled hospitality consulting services that are tailored to your unique needs and aspirations. </p>
               <p>With years of industry expertise, our team of seasoned professionals possesses an intricate understanding of the hospitality landscape, enabling us to provide you with strategic guidance and solutions that drive excellence and profitability.</p>
-              <p>When you're ready to grow or diversify, we offer strategic guidance on market expansion, feasibility studies, and property development to help you seize new opportunities.</p>
-              <p>At Warm Hospitality, we are committed to your success, and our unwavering dedication to excellence sets us apart in the world of hospitality consulting. </p>
+              {/* <p>When you're ready to grow or diversify, we offer strategic guidance on market expansion, feasibility studies, and property development to help you seize new opportunities.</p>
+              <p>At Warm Hospitality, we are committed to your success, and our unwavering dedication to excellence sets us apart in the world of hospitality consulting. </p> */}
             </div>
           </div>
         </div>
       </div>
-      
       <div className='z-10 bg-color-BG'>
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 my-10 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex flex-col items-center justify-center'>
-              <h2 className='text-center'>EVENT PLANNING</h2>
+              <h2 className='text-center'>EVENT MANAGEMENT</h2>
               <p className=' bg-color-BG'>At Warm Hospitality, we are not just a destination for exceptional drinks and vibrant ambiance; we are your partners in crafting unforgettable events and celebrations. Our dedicated event planning services are designed to elevate your gatherings, ensuring they are stylish, memorable, and hassle-free.</p>
-              <p>Our courteous and attentive staff will ensure that your guests are well taken care of, from the moment they arrive until the event's conclusion.</p>
-              <p>Our experienced event planners will handle all the logistics, timelines, and coordination, so you can relax and enjoy your event without worrying about the details.</p>
-              <p>At Warm Hospitality, we understand that every event is unique. Our goal is to bring your vision to life and create an unforgettable experience for you and your guests. Whether you're celebrating a milestone or hosting a corporate event, let us be your partner in making it truly exceptional. Contact us today to start planning your next memorable gathering.</p>
+              {/* <p>Our courteous and attentive staff will ensure that your guests are well taken care of, from the moment they arrive until the event's conclusion.</p>
+              <p>Our experienced event planners will handle all the logistics, timelines, and coordination, so you can relax and enjoy your event without worrying about the details.</p> */}
+              <p>We understand that every event is unique. Our goal is to bring your vision to life and create an unforgettable experience for you and your guests. Whether you're celebrating a milestone or hosting a corporate event, let us be your partner in making it truly exceptional. Contact us today to start planning your next memorable gathering.</p>
             </div>
 
             <div className='flex items-center justify-center'>
@@ -122,8 +120,22 @@ const Services = () => {
           </div>
         </div>
       </div>
-
-     
+      <div className='z-10 bg-color-BG'>
+        <div className='my-10'>
+          <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
+            <div className='flex items-center justify-center'>
+              <img className='object-cover w-full h-full rounded-lg ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+              <h2 className='text-center'>Food and Beverage Menu Development</h2>
+              <p className=' bg-color-BG'>Connect with Confidence: Social Media Services unlock the full potential of your business, brand, or influence with our comprehensive offerings, covering Instagram, TikTok, Pinterest, and LinkedIn. </p>
+              <p>Our Social Media Management packages empower you to take control of your platforms while ensuring structure and consistency. </p>
+              {/* <p>Need captivating content for your business? </p>
+              <p>Our Content Creation service has you covered, whether for one-time projects, photoshoots, or events. Elevate your social media game with our Strategy Packages, including brainstorming, content planning, monthly calendars, and trend customization for future success. </p> */}
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className='z-10 bg-color-BG'>
         <div className='my-10'>
