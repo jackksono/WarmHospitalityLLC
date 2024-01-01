@@ -52,7 +52,7 @@ const Services = () => {
         </div>
       </div>
       
-      <div className='z-10 bg-color-BG'>
+      {/* <div className='z-10 bg-color-BG'>
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
             <div className='flex items-center justify-center'>
@@ -68,66 +68,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className='z-10 bg-color-BG'>
-        <div className='my-10'>
-          <div className='z-10 grid grid-cols-2 my-10 space-x-10 large-container bg-color-BG font-Raleway'>
-            
-            
-            <div className='flex flex-col items-center justify-center'>
-              <h2 className='text-center'>EVENT PLANNING</h2>
-              <p className=' bg-color-BG'>At Warm Hospitality, we are not just a destination for exceptional drinks and vibrant ambiance; we are your partners in crafting unforgettable events and celebrations. Our dedicated event planning services are designed to elevate your gatherings, ensuring they are stylish, memorable, and hassle-free.</p>
-              <p>Our courteous and attentive staff will ensure that your guests are well taken care of, from the moment they arrive until the event's conclusion.</p>
-              <p>Our experienced event planners will handle all the logistics, timelines, and coordination, so you can relax and enjoy your event without worrying about the details.</p>
-              <p>At Warm Hospitality, we understand that every event is unique. Our goal is to bring your vision to life and create an unforgettable experience for you and your guests. Whether you're celebrating a milestone or hosting a corporate event, let us be your partner in making it truly exceptional. Contact us today to start planning your next memorable gathering.</p>
-            </div>
-
-            <div className='flex items-center justify-center'>
-              <img className='object-cover w-full h-full rounded-lg ' src={EventPlanning} loading='lazy' alt='imageOne'></img>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className='z-10 bg-color-BG'>
-        <div className='my-10'>
-          <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
-            <div className='flex items-center justify-center'>
-              <img className='object-cover w-full h-full rounded-lg ' src={Premier} loading='lazy' alt='imageOne'></img>
-            </div>
-            
-            <div className='flex flex-col items-center justify-center'>
-              <h2 className='text-center'>PREMIER HOSPITALITY CONSULTING</h2>
-              <p className=' bg-color-BG'>At Warm Hospitality, we pride ourselves on delivering comprehensive and unparalleled hospitality consulting services that are tailored to your unique needs and aspirations. </p>
-              <p>With years of industry expertise, our team of seasoned professionals possesses an intricate understanding of the hospitality landscape, enabling us to provide you with strategic guidance and solutions that drive excellence and profitability.</p>
-              <p>When you're ready to grow or diversify, we offer strategic guidance on market expansion, feasibility studies, and property development to help you seize new opportunities.</p>
-              <p>At Warm Hospitality, we are committed to your success, and our unwavering dedication to excellence sets us apart in the world of hospitality consulting. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className='z-10 bg-color-BG'>
-        <div className='my-10'>
-          <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
-            
-            
-            <div className='flex flex-col items-center justify-center'>
-              <h2 className='text-center'>WEB DEVELOPMENT</h2>
-              <p className=' bg-color-BG'>Our custom web development services are tailored to enhance your presence and performance in the ever-evolving hospitality industry. </p>
-              <p>Our team of experienced developers specializes in creating bespoke web solutions that not only showcase your brand's unique identity but also optimize user experience and functionality. </p>
-              <p>Whether you need a cutting-edge booking platform, a seamless mobile app, or a website that tells your story effectively, our experts are here to bring your vision to life. </p>
-              <p>With our custom web development services, you'll gain a competitive edge, increase online visibility, and provide your guests with a seamless and engaging digital experience.</p>
-            </div>
-
-            <div className='flex items-center justify-center'>
-              <img className='object-cover w-full h-full rounded-lg ' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
-            </div>
-          </div> 
-        </div>
-      </div>
-
+      </div> */}
       <div className='z-10 bg-color-BG'>
         <div className='my-10'>
           <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
@@ -145,6 +86,64 @@ const Services = () => {
           </div>
         </div>
       </div>
+      
+      <div className='z-10 bg-color-BG'>
+        <div className='my-10'>
+          <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
+            <div className='flex items-center justify-center'>
+              <img className='object-cover w-full h-full rounded-lg ' src={Premier} loading='lazy' alt='imageOne'></img>
+            </div>
+            
+            <div className='flex flex-col items-center justify-center'>
+              <h2 className='text-center'>PREMIER HOSPITALITY CONSULTING</h2>
+              <p className=' bg-color-BG'>At Warm Hospitality, we pride ourselves on delivering comprehensive and unparalleled hospitality consulting services that are tailored to your unique needs and aspirations. </p>
+              <p>With years of industry expertise, our team of seasoned professionals possesses an intricate understanding of the hospitality landscape, enabling us to provide you with strategic guidance and solutions that drive excellence and profitability.</p>
+              <p>When you're ready to grow or diversify, we offer strategic guidance on market expansion, feasibility studies, and property development to help you seize new opportunities.</p>
+              <p>At Warm Hospitality, we are committed to your success, and our unwavering dedication to excellence sets us apart in the world of hospitality consulting. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className='z-10 bg-color-BG'>
+        <div className='my-10'>
+          <div className='z-10 grid grid-cols-2 my-10 space-x-10 large-container bg-color-BG font-Raleway'>
+            <div className='flex flex-col items-center justify-center'>
+              <h2 className='text-center'>EVENT PLANNING</h2>
+              <p className=' bg-color-BG'>At Warm Hospitality, we are not just a destination for exceptional drinks and vibrant ambiance; we are your partners in crafting unforgettable events and celebrations. Our dedicated event planning services are designed to elevate your gatherings, ensuring they are stylish, memorable, and hassle-free.</p>
+              <p>Our courteous and attentive staff will ensure that your guests are well taken care of, from the moment they arrive until the event's conclusion.</p>
+              <p>Our experienced event planners will handle all the logistics, timelines, and coordination, so you can relax and enjoy your event without worrying about the details.</p>
+              <p>At Warm Hospitality, we understand that every event is unique. Our goal is to bring your vision to life and create an unforgettable experience for you and your guests. Whether you're celebrating a milestone or hosting a corporate event, let us be your partner in making it truly exceptional. Contact us today to start planning your next memorable gathering.</p>
+            </div>
+
+            <div className='flex items-center justify-center'>
+              <img className='object-cover w-full h-full rounded-lg ' src={EventPlanning} loading='lazy' alt='imageOne'></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div className='z-10 bg-color-BG'>
+        <div className='my-10'>
+          <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
+            <div className='flex flex-col items-center justify-center'>
+              <h2 className='text-center'>WEB DEVELOPMENT</h2>
+              <p className=' bg-color-BG'>Our custom web development services are tailored to enhance your presence and performance in the ever-evolving hospitality industry. </p>
+              <p>Our team of experienced developers specializes in creating bespoke web solutions that not only showcase your brand's unique identity but also optimize user experience and functionality. </p>
+              <p>Whether you need a cutting-edge booking platform, a seamless mobile app, or a website that tells your story effectively, our experts are here to bring your vision to life. </p>
+              <p>With our custom web development services, you'll gain a competitive edge, increase online visibility, and provide your guests with a seamless and engaging digital experience.</p>
+            </div>
+
+            <div className='flex items-center justify-center'>
+              <img className='object-cover w-full h-full rounded-lg ' src={WebDevelopment} loading='lazy' alt='imageOne'></img>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      
     </div>
     </>
   )
