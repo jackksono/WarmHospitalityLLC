@@ -40,7 +40,7 @@ const Home = () => {
                     </div>
                 </div>
           </div>
-          <div className='relative z-10 flex flex-col items-center justify-center h-screen mx-12 bg-color-BG'>
+          <div className='relative z-10 flex flex-col items-center justify-center pt-10 mx-12 bg-color-BG'>
             <div className='flex flex-col items-center text-justify font-Raleway'>
                 <h1>WHO WE ARE</h1>
                 <h5 className='pb-5'>Las Vegas Professionals ~ Minority Women Owned </h5>
@@ -56,7 +56,7 @@ const Home = () => {
             </div>
           </div>
        
-        <div className='z-10 flex bg-white'>
+        <div>
           <Footer></Footer>
         </div>
       </>

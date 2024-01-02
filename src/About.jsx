@@ -2,8 +2,9 @@ import React, { useEffect } from 'react'
 
 import imageOne from '../src/images/stock/3.1.jpg'
 import imageTwo from '../src/images/stock/3.jpg'
-
 import TeamImage from '../src/images/stock/TeamImage.jpg'
+
+import Footer from './Footer'
 
 const About = () => {
 //increase margins on left and right 
@@ -89,6 +90,9 @@ const About = () => {
                   </div>
                 </div>
             </div>
+            <div>
+        <Footer/>
+      </div>
         </div>
     </>
   )

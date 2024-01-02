@@ -9,6 +9,7 @@ import EventPlanning from '../src/images/services/EventPlanning.jpg'
 import Premier from '../src/images/services/PremierConsulting.jpg'
 import WebDevelopment from '../src/images/services/WebDevelopment.jpg'
 import SocialMedia from '../src/images/services/SocialMediaM.jpg'
+import Footer from './Footer'
 const Services = () => {
     useEffect(() => {
        
@@ -31,6 +32,7 @@ const Services = () => {
 
   return (
     <>
+
     <div className='min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-BG'>
           <div className='fixed inset-0 flex items-center justify-center bg-color-BG bg-opacity-60'>
               <div className='flex flex-row justify-center mt-60 '>
@@ -153,7 +155,14 @@ const Services = () => {
           </div> 
         </div>
       </div>
+
+      <div>
+        <Footer/>
+      </div>
     </div>
+    
+    
+   
     </>
   )
 }
