@@ -79,9 +79,9 @@ return (
     <div className="min-h-screen text-3xl text-center bg-fixed bg-center bg-no-repeat bg-cover large-container parallax-element bg-BG font-Raleway">
       <div className="fixed inset-0 flex flex-col items-center justify-center w-screen pt-32 overflow-x-hidden bg-color-BG bg-opacity-60">
         <h1 className="pt-32 text-5xl font-semibold text-black lg:pt-40 xl:pt-72">Contact <span className="font-semibold text-black">Us</span></h1>
-        <p className="pt-4 text-xs text-black sm:text-base lg:text-lg">Please feel free to reach out with any questions here or email us at info@warmhospitalitygroup.com</p>
+        <p className="text-xs text-black sm:text-base lg:text-lg">Please feel free to reach out with any questions here or email us at info@warmhospitalitygroup.com</p>
 
-            <div className="flex items-center justify-center m-4 lg:pt-60 2xl:pt-20 lg:my-0 sm:w-11/12 sm:h-full ">
+            <div className="flex items-center justify-center m-4 sm:pt-10 lg:pt-60 2xl:pt-20 lg:my-0 sm:w-11/12 sm:h-full ">
                 <div className="w-full">
                     <form className="flex flex-col mx-auto text-center lg:pt-10"  method="post" onSubmit={sendMail}>
                         <div className="flex mb-2 space-x-5 sm:space-x-10">
