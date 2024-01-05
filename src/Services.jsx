@@ -6,7 +6,7 @@ import imageTwo from '../src/images/stock/4.jpg'
 import EventPlanning from '../src/images/services/EventPlanning.jpg'
 import Premier from '../src/images/services/PremierConsulting.jpg'
 import WebDevelopment from '../src/images/services/WebDevelopment.jpg'
-import SocialMedia from '../src/images/services/SocialMediaM.jpg'
+import SocialMedia from '../src/images/services/SocialMedia.jpg'
 import Footer from './Footer'
 
 const Services = () => {
@@ -80,7 +80,7 @@ const Services = () => {
                 <p>Our Content Creation service has you covered, whether for one-time projects, photoshoots, or events. Elevate your social media game with our Strategy Packages, including brainstorming, content planning, monthly calendars, and trend customization for future success. </p> */}
               </div>
               <div className='flex items-center justify-center'>
-                <img className='object-cover w-full h-full rounded-lg ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
+                <img className='object-cover w-[682px] rounded-lg h-[450px] ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
               </div>
             </div>
           </div>
@@ -128,8 +128,8 @@ const Services = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h2 className='text-center'>Food and Beverage Menu Development</h2>
-                <p className=' bg-color-BG'>Connect with Confidence: Social Media Services unlock the full potential of your business, brand, or influence with our comprehensive offerings, covering Instagram, TikTok, Pinterest, and LinkedIn. </p>
-                <p>Our Social Media Management packages empower you to take control of your platforms while ensuring structure and consistency. </p>
+                <p className=' bg-color-BG'>Our dedicated food and beverage consult at Warm Hospitality goes beyond conventional offerings, specializing in crafting bespoke menus meticulously aligned with your business brand vision.</p>
+                <p>Our expert culinary team collaborates closely with clients to understand their unique identity, translating it into a curated gastronomic experience that seamlessly integrates with the brand narrative.</p>
                 {/* <p>Need captivating content for your business? </p>
                 <p>Our Content Creation service has you covered, whether for one-time projects, photoshoots, or events. Elevate your social media game with our Strategy Packages, including brainstorming, content planning, monthly calendars, and trend customization for future success. </p> */}
               </div>
