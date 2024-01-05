@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
-import imageOne from '../src/images/stock/3.1.jpg'
-import imageTwo from '../src/images/stock/3.jpg'
+import imageOne from '../src/images/stock/AboutUsLeft.jpg'
+import imageTwo from '../src/images/stock/AboutUsRight.jpg'
 import TeamImage from '../src/images/stock/TeamImage.jpg'
 
 import Footer from './Footer'

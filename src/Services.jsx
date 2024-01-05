@@ -7,6 +7,7 @@ import EventPlanning from '../src/images/services/EventPlanning.jpg'
 import Premier from '../src/images/services/PremierConsulting.jpg'
 import WebDevelopment from '../src/images/services/WebDevelopment.jpg'
 import SocialMedia from '../src/images/services/SocialMedia.jpg'
+import FBConsulting from '../src/images/services/FBConsulting.jpg'
 import Footer from './Footer'
 
 const Services = () => {
@@ -124,7 +125,7 @@ const Services = () => {
           <div className='my-10'>
             <div className='z-10 grid grid-cols-2 space-x-10 large-container bg-color-BG font-Raleway'>
               <div className='flex items-center justify-center'>
-                <img className='object-cover w-full h-full rounded-lg ' src={SocialMedia} loading='lazy' alt='imageOne'></img>
+                <img className='object-cover w-full h-full rounded-lg ' src={FBConsulting} loading='lazy' alt='imageOne'></img>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h2 className='text-center'>Food and Beverage Menu Development</h2>
