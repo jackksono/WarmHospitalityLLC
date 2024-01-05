@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/WarmHospitalityLLC/static/css/main.9d68ec47.css",
-    "main.js": "/WarmHospitalityLLC/static/js/main.72aec730.js",
+    "main.css": "/WarmHospitalityLLC/static/css/main.1d865e5f.css",
+    "main.js": "/WarmHospitalityLLC/static/js/main.6417a5bd.js",
     "static/js/113.b8373c12.chunk.js": "/WarmHospitalityLLC/static/js/113.b8373c12.chunk.js",
     "static/js/462.06d4f73e.chunk.js": "/WarmHospitalityLLC/static/js/462.06d4f73e.chunk.js",
-    "static/js/111.4e62b4b1.chunk.js": "/WarmHospitalityLLC/static/js/111.4e62b4b1.chunk.js",
+    "static/js/111.19e85bc3.chunk.js": "/WarmHospitalityLLC/static/js/111.19e85bc3.chunk.js",
     "static/js/265.6cc0a13e.chunk.js": "/WarmHospitalityLLC/static/js/265.6cc0a13e.chunk.js",
     "static/js/135.1bbd21f4.chunk.js": "/WarmHospitalityLLC/static/js/135.1bbd21f4.chunk.js",
     "static/media/SocialMedia.jpg": "/WarmHospitalityLLC/static/media/SocialMedia.c0fc60e1d921544d7474.jpg",
@@ -22,16 +22,16 @@
     "static/media/1.jpg": "/WarmHospitalityLLC/static/media/1.3164432f1a52cabcc1b3.jpg",
     "static/media/1 (4).png": "/WarmHospitalityLLC/static/media/1 (4).4517a7c0202e5c2f71d6.png",
     "index.html": "/WarmHospitalityLLC/index.html",
-    "main.9d68ec47.css.map": "/WarmHospitalityLLC/static/css/main.9d68ec47.css.map",
-    "main.72aec730.js.map": "/WarmHospitalityLLC/static/js/main.72aec730.js.map",
+    "main.1d865e5f.css.map": "/WarmHospitalityLLC/static/css/main.1d865e5f.css.map",
+    "main.6417a5bd.js.map": "/WarmHospitalityLLC/static/js/main.6417a5bd.js.map",
     "113.b8373c12.chunk.js.map": "/WarmHospitalityLLC/static/js/113.b8373c12.chunk.js.map",
     "462.06d4f73e.chunk.js.map": "/WarmHospitalityLLC/static/js/462.06d4f73e.chunk.js.map",
-    "111.4e62b4b1.chunk.js.map": "/WarmHospitalityLLC/static/js/111.4e62b4b1.chunk.js.map",
+    "111.19e85bc3.chunk.js.map": "/WarmHospitalityLLC/static/js/111.19e85bc3.chunk.js.map",
     "265.6cc0a13e.chunk.js.map": "/WarmHospitalityLLC/static/js/265.6cc0a13e.chunk.js.map",
     "135.1bbd21f4.chunk.js.map": "/WarmHospitalityLLC/static/js/135.1bbd21f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d68ec47.css",
-    "static/js/main.72aec730.js"
+    "static/css/main.1d865e5f.css",
+    "static/js/main.6417a5bd.js"
   ]
 }
