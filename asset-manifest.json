@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/WarmHospitalityLLC/static/css/main.c42dd181.css",
-    "main.js": "/WarmHospitalityLLC/static/js/main.65883a9c.js",
-    "static/js/113.d33156db.chunk.js": "/WarmHospitalityLLC/static/js/113.d33156db.chunk.js",
-    "static/js/699.e34a0391.chunk.js": "/WarmHospitalityLLC/static/js/699.e34a0391.chunk.js",
-    "static/js/111.6911cff8.chunk.js": "/WarmHospitalityLLC/static/js/111.6911cff8.chunk.js",
-    "static/js/72.65a4fb53.chunk.js": "/WarmHospitalityLLC/static/js/72.65a4fb53.chunk.js",
+    "main.css": "/WarmHospitalityLLC/static/css/main.86234d18.css",
+    "main.js": "/WarmHospitalityLLC/static/js/main.eb0dbf5e.js",
+    "static/js/113.38b0ca63.chunk.js": "/WarmHospitalityLLC/static/js/113.38b0ca63.chunk.js",
+    "static/js/699.fdb4fa46.chunk.js": "/WarmHospitalityLLC/static/js/699.fdb4fa46.chunk.js",
+    "static/js/111.4e62b4b1.chunk.js": "/WarmHospitalityLLC/static/js/111.4e62b4b1.chunk.js",
+    "static/js/728.487ca5d0.chunk.js": "/WarmHospitalityLLC/static/js/728.487ca5d0.chunk.js",
     "static/js/135.1bbd21f4.chunk.js": "/WarmHospitalityLLC/static/js/135.1bbd21f4.chunk.js",
     "static/media/3.jpg": "/WarmHospitalityLLC/static/media/3.a135483b44ee58a50ba8.jpg",
-    "static/media/Concierge.jpg": "/WarmHospitalityLLC/static/media/Concierge.3c10d0b15713e7cb6f89.jpg",
+    "static/media/SocialMedia.jpg": "/WarmHospitalityLLC/static/media/SocialMedia.c0fc60e1d921544d7474.jpg",
     "static/media/background2.jpg": "/WarmHospitalityLLC/static/media/background2.d82a70f1fec35316877c.jpg",
     "static/media/3.1.jpg": "/WarmHospitalityLLC/static/media/3.1.42eb844d5c0d8f4e1fc1.jpg",
     "static/media/4.1.jpg": "/WarmHospitalityLLC/static/media/4.1.1e59876e85d2bb19b4f0.jpg",
@@ -17,21 +17,20 @@
     "static/media/TeamImage.jpg": "/WarmHospitalityLLC/static/media/TeamImage.33faab6d6018d3df3f78.jpg",
     "static/media/WebDevelopment.jpg": "/WarmHospitalityLLC/static/media/WebDevelopment.d75c26f830fd7e61f2b6.jpg",
     "static/media/2.jpg": "/WarmHospitalityLLC/static/media/2.17ce616c5125f69cda43.jpg",
-    "static/media/SocialMediaM.jpg": "/WarmHospitalityLLC/static/media/SocialMediaM.cc79e963d453947918be.jpg",
     "static/media/EventPlanning.jpg": "/WarmHospitalityLLC/static/media/EventPlanning.c33e246fe1612a57cd62.jpg",
     "static/media/1.jpg": "/WarmHospitalityLLC/static/media/1.3164432f1a52cabcc1b3.jpg",
     "static/media/1 (4).png": "/WarmHospitalityLLC/static/media/1 (4).4517a7c0202e5c2f71d6.png",
     "index.html": "/WarmHospitalityLLC/index.html",
-    "main.c42dd181.css.map": "/WarmHospitalityLLC/static/css/main.c42dd181.css.map",
-    "main.65883a9c.js.map": "/WarmHospitalityLLC/static/js/main.65883a9c.js.map",
-    "113.d33156db.chunk.js.map": "/WarmHospitalityLLC/static/js/113.d33156db.chunk.js.map",
-    "699.e34a0391.chunk.js.map": "/WarmHospitalityLLC/static/js/699.e34a0391.chunk.js.map",
-    "111.6911cff8.chunk.js.map": "/WarmHospitalityLLC/static/js/111.6911cff8.chunk.js.map",
-    "72.65a4fb53.chunk.js.map": "/WarmHospitalityLLC/static/js/72.65a4fb53.chunk.js.map",
+    "main.86234d18.css.map": "/WarmHospitalityLLC/static/css/main.86234d18.css.map",
+    "main.eb0dbf5e.js.map": "/WarmHospitalityLLC/static/js/main.eb0dbf5e.js.map",
+    "113.38b0ca63.chunk.js.map": "/WarmHospitalityLLC/static/js/113.38b0ca63.chunk.js.map",
+    "699.fdb4fa46.chunk.js.map": "/WarmHospitalityLLC/static/js/699.fdb4fa46.chunk.js.map",
+    "111.4e62b4b1.chunk.js.map": "/WarmHospitalityLLC/static/js/111.4e62b4b1.chunk.js.map",
+    "728.487ca5d0.chunk.js.map": "/WarmHospitalityLLC/static/js/728.487ca5d0.chunk.js.map",
     "135.1bbd21f4.chunk.js.map": "/WarmHospitalityLLC/static/js/135.1bbd21f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c42dd181.css",
-    "static/js/main.65883a9c.js"
+    "static/css/main.86234d18.css",
+    "static/js/main.eb0dbf5e.js"
   ]
 }
