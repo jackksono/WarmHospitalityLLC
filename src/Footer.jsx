@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-    <footer className="relative bg-color-BG inset-x-0 bottom-0 w-screen h-[75px] lg:h-[350px] z-10">
+    <footer className="relative bg-color-BG inset-x-0 bottom-0 w-screen h-[75px] sm:h-[300px] lg:h-[350px] z-10">
       <div className='items-center justify-center w-50 h-50'>
         <Link to='/'>
           <img className='h-52 w-68' src={logo} alt='logo'></img>
