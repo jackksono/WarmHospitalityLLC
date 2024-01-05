@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 
-import imageOne from '../src/images/stock/4.1.jpg'
-import imageTwo from '../src/images/stock/4.jpg'
+import imageOne from '../src/images/stock/Service1.jpg'
+import imageTwo from '../src/images/stock/Service2.jpg'
 
-import EventPlanning from '../src/images/services/EventPlanning.jpg'
+import EventPlanning from '../src/images/services/EventPhoto.jpg'
 import Premier from '../src/images/services/PremierConsulting.jpg'
 import WebDevelopment from '../src/images/services/WebDevelopment.jpg'
 import SocialMedia from '../src/images/services/SocialMedia.jpg'
