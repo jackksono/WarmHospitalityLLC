@@ -44,10 +44,10 @@ const About = () => {
       </div>
 
 
-      <div className='relative z-10 flex flex-col items-center justify-center pt-20 pb-20 mx-12 min-h-max bg-color-BG'>
+      <div className='relative z-10 flex flex-col items-center justify-center pt-20 mx-12 min-h-max bg-color-BG'>
             <div className='flex flex-col items-center text-justify large-container font-Raleway'>
                 <h1 className='pt-20'>ABOUT US</h1>
-                <div className='grid grid-cols-3 gap-8 pt-20'>
+                <div className='grid grid-cols-3 gap-8 pt-20 mb-10'>
                   <div className='flex flex-col items-center'>  
                     <h2 className='relative text-center'>MICHELLE TRAN</h2>
                     <label className='absolute pt-16 font-bold text-gray-400'>MANAGING PARTNER</label>

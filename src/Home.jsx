@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
           </div>
           <div className='relative z-10 flex flex-col items-center justify-center pt-10 bg-color-BG'>
-            <div className='flex flex-col items-center mx-24 text-justify font-Raleway'>
+            <div className='flex flex-col items-center mx-24 mb-10 text-justify font-Raleway'>
                 <h1>WHO WE ARE</h1>
                 <h5 className='pb-5'>Las Vegas Professionals ~ Minority Women Owned </h5>
                 <p className='mx-32'>
