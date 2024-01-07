@@ -4,6 +4,11 @@ import { FaTiktok, FaInstagramSquare } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  //need more content 
+    //privacy policy
+    //terms & conditions
+    //another contact thread
+
   return (
     <>
     <footer className="relative bg-color-BG inset-x-0 bottom-0 w-screen h-[75px] sm:h-[300px] lg:h-[350px] z-10">
