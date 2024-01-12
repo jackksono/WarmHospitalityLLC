@@ -19,7 +19,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className='flex flex-col mx-32 font-Raleway'> 
+      <div className='flex flex-col items-center justify-center mx-32 font-Raleway'> 
         {/* <h4 className=''>Follow Us on Social Media!</h4> */}
         <a className='flex flex-row hover:text-gray-500 w-min' href='https://Instagram.com/WarmHospitalityGroup' target="_blank" rel="noopener noreferrer">
           <a href='https://Instagram.com/WarmHospitalityGroup' target="_blank" rel="noopener noreferrer">
