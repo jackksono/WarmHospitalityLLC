@@ -44,7 +44,7 @@ const Home = () => {
                               className='h-[400px] w-[180px] object-cover mix-blend-multiply
                               sm:object-fill sm:h-[850px] sm:w-[500px] 
                               2xl:w-[700px] ' 
-                              src={imageOne} 
+                              src={imageTwo} 
                               alt='imageOne' />
                         </div>
                     </div>
