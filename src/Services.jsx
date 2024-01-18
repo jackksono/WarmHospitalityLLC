@@ -36,10 +36,20 @@ const Services = () => {
             <div className='fixed inset-0 flex items-center justify-center bg-color-BG bg-opacity-60'>
                 <div className='flex flex-row justify-center mt-60 '>
                     <div className='parallax-element ' data-speed='0.05'>
-                        <img className='h-[850px] sm:w-[500px] 2xl:w-[700px] mix-blend-multiply' loading='lazy' src={imageOne} alt='imageOne' />
+                    <img 
+                        className='h-[400px] w-[180px] object-cover mix-blend-multiply
+                        sm:object-fill sm:h-[850px] sm:w-[500px] 
+                        2xl:w-[700px] ' 
+                        src={imageOne} 
+                        alt='imageOne' />
                     </div>
                     <div className='parallax-element' data-speed='0.05'>
-                        <img className='h-[850px] sm:w-[500px] 2xl:w-[700px] mix-blend-multiply' loading='lazy' src={imageTwo} alt='imageTwo' />
+                    <img 
+                        className='h-[400px] w-[180px] object-cover mix-blend-multiply
+                        sm:object-fill sm:h-[850px] sm:w-[500px] 
+                        2xl:w-[700px] ' 
+                        src={imageTwo} 
+                        alt='imageTwo' />
                     </div>
                 </div>
             </div>

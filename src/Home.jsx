@@ -45,7 +45,7 @@ const Home = () => {
                               sm:object-fill sm:h-[850px] sm:w-[500px] 
                               2xl:w-[700px] ' 
                               src={imageTwo} 
-                              alt='imageOne' />
+                              alt='imageTwo' />
                         </div>
                     </div>
                 </div>

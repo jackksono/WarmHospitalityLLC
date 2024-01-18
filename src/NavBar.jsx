@@ -15,6 +15,7 @@ const Services = lazy(() => import('./Services'))
 
 const NavBar = () => {
 
+  const [ inMobile, setInMobile ] = useState(false);
   const [ selectedPage, setSelectedPage ] = useState({
     home: true,
     about: false,
