@@ -39,9 +39,9 @@ const NavBar = () => {
   //Configure mobile screening
   return (
     <>
-        <div className='relative z-10 h-40 overflow-hidden overflow-y-hidden bg-fixed bg-center bg-cover bg-BG '>
-            <div className='absolute inset-0 bg-opacity-60 bg-color-BG '>
-                <div className='items-center justify-center hidden sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway nav-links sm:visible'>
+        <div className='items-start justify-start w-1/4 h-screen bg-gray-400 sm:bg-fixed sm:bg-center sm:bg-cover sm:flex-none sm:w-screen sm:overflow-hidden sm:overflow-y-hidden sm:relative sm:z-10 sm:h-40 sm:bg-BG'>
+            <div className='sm:absolute sm:inset-0 sm:bg-opacity-60 bg-color-BG sm:justify-center'>
+                <div className='sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible nav-links'>
                   <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200 ' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
