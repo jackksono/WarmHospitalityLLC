@@ -11,10 +11,6 @@ const About = lazy(() => import('./About'))
 const Contact = lazy(() => import('./Contact'))
 const Services = lazy(() => import('./Services'))
 
-//mobile resizing using CSS
-    //configure dropdown in mobile
-        //need to change CS using tailwinddefault and sm: css to differentiate
-        //rearrange format with hamburger for mobile version
 const NavBar = () => {
 
   const [ selectedPage, setSelectedPage ] = useState({
