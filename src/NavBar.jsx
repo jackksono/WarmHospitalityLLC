@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { lazy, Suspense } from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
-
-
+import { useClickAway } from "@uidotdev/usehooks";
 //fix mobile version with hamburger drop down
 import logo from '../src/images/logo/1 (4).png'
 
@@ -20,6 +19,17 @@ const NavBar = () => {
     services: false
   })
 
+  const clickAway = useClickAway(() => {
+    const navLinks = document.querySelector('.nav-links')
+    let tag = document.getElementById("menu")
+    if (tag.name === "menu") { 
+      return;
+    }
+    tag.name = tag.name === "close" ? "menu" : "close"
+    navLinks.classList.toggle('hidden')
+    // console.log(navLinks.classList)
+  })
+
   const onToggleMenu = () => {
     const navLinks = document.querySelector('.nav-links')
     let tag = document.getElementById("menu")
@@ -28,22 +38,26 @@ const NavBar = () => {
   }
 
   const toggleOff = () => {
+    console.log('clicked')
     const navLinks = document.querySelector('.nav-links')
     let tag = document.getElementById("menu")
     tag.name = tag.name === "menu" ? "close" : "menu"
-    navLinks.classList.toggle('hidden')
+    navLinks.classList.toggle('hidden', tag.name === "menu");
   }
   //Configure mobile screening
+
+
   return (
     <>
-        <div className='items-start justify-start w-1/4 h-screen bg-fixed bg-center bg-cover bg-color-BG sm:flex-none sm:w-screen sm:overflow-hidden sm:overflow-y-hidden sm:relative sm:h-40 bg-BG'>
-            <div className='inset-0 w-full h-screen sm:w-full sm:absolute sm:bg-opacity-60 sm:justify-center nav-links'>
+        <div className='items-start justify-start w-1/4 h-screen bg-fixed bg-center bg-cover bg-color-BG sm:flex-none sm:w-screen sm:overflow-hidden sm:overflow-y-hidden sm:relative sm:h-40 bg-BG'
+        ref={clickAway}>
+            <div className='inset-0 w-full h-screen sm:w-full sm:absolute sm:bg-opacity-60 sm:justify-center ' >
                 <div className="flex pt-10 pl-5 text-2xl text-color-text sm:hidden">
                   <button className='z-20'>
                       <ion-icon name="close" id="menu" onClick={onToggleMenu} ></ion-icon>
                   </button>
                 </div>
-                <div className='z-20 px-2 space-y-3 sm:space-y-0 sm:px-0 sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible '>
+                <div className='z-20 px-2 space-y-3 nav-links sm:space-y-0 sm:px-0 sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible '>
                   <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200 ' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
