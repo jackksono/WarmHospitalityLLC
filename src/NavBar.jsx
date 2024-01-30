@@ -36,9 +36,14 @@ const NavBar = () => {
   //Configure mobile screening
   return (
     <>
-        <div className='items-start justify-start w-1/4 h-screen bg-gray-400 sm:bg-fixed sm:bg-center sm:bg-cover sm:flex-none sm:w-screen sm:overflow-hidden sm:overflow-y-hidden sm:relative sm:z-10 sm:h-40 sm:bg-BG'>
-            <div className='sm:absolute sm:inset-0 sm:bg-opacity-60 bg-color-BG sm:justify-center'>
-                <div className='sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible nav-links'>
+        <div className='items-start justify-start w-1/4 h-screen bg-fixed bg-center bg-cover bg-color-BG sm:flex-none sm:w-screen sm:overflow-hidden sm:overflow-y-hidden sm:relative sm:h-40 bg-BG'>
+            <div className='inset-0 w-full h-screen sm:w-full sm:absolute sm:bg-opacity-60 sm:justify-center nav-links'>
+                <div className="flex pt-10 pl-5 text-2xl text-color-text sm:hidden">
+                  <button className='z-20'>
+                      <ion-icon name="close" id="menu" onClick={onToggleMenu} ></ion-icon>
+                  </button>
+                </div>
+                <div className='z-20 px-2 space-y-3 sm:space-y-0 sm:px-0 sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible '>
                   <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200 ' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({
@@ -91,12 +96,8 @@ const NavBar = () => {
                    
                     
                 </div>
-                <div className="flex pt-10 pl-5 text-2xl text-color-text sm:hidden">
-                  <button>
-                      <ion-icon name="menu" id="menu" onClick={onToggleMenu} ></ion-icon>
-                  </button>
-                </div>
-                <div className='absolute z-10 flex items-center justify-center -mt-3 transform -translate-x-1/2 left-1/2 bg-opacity-60'>
+                
+                <div className='absolute flex items-center justify-center visible -mt-40 transform -translate-x-1/2 sm:z-10 sm:-mt-3 left-1/2 bg-opacity-60'>
                     <Link to='/'>
                         <img 
                           className='sm:w-80 sm:h-44 scale-[2]' 

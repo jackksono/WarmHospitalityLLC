@@ -29,17 +29,17 @@ const Home = () => {
     return (
         <>
           <div className='min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-BG'>
-                <div className='fixed inset-0 flex items-center justify-center bg-color-BG bg-opacity-60'>
+                <div className='absolute inset-0 flex items-center justify-center sm:fixed bg-color-BG bg-opacity-60'>
                     <div className='flex flex-row justify-center sm:mt-60 '>
-                        <div className='parallax-element ' data-speed='0.05'>
+                        <div className='z-0 parallax-element' data-speed='0.05' style={{ zIndex: 1 }}>
                             <img 
-                              className='h-[400px] w-[180px] object-cover mix-blend-multiply
+                              className='h-[400px] w-[180px] object-cover mix-blend-multiply 
                               sm:object-fill sm:h-[850px] sm:w-[500px] 
                               2xl:w-[700px] ' 
                               src={imageOne} 
                               alt='imageOne' />
                         </div>
-                        <div className='parallax-element' data-speed='0.05'>
+                        <div className='parallax-element' data-speed='0.05' style={{ zIndex: 1 }}>
                         <img 
                               className='h-[400px] w-[180px] object-cover mix-blend-multiply
                               sm:object-fill sm:h-[850px] sm:w-[500px] 
