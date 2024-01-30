@@ -57,7 +57,7 @@ const NavBar = () => {
                       <ion-icon name="close" id="menu" onClick={onToggleMenu} ></ion-icon>
                   </button>
                 </div>
-                <div className='z-20 px-2 space-y-3 nav-links sm:space-y-0 sm:px-0 sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible '>
+                <div className='z-20 px-2 space-y-3 sm:space-y-0 sm:px-0 sm:items-center sm:justify-center sm:flex lg:space-x-8 2xl:space-x-10 font-Raleway sm:visible '>
                   <button className= {selectedPage.home ?'z-20 text-white font-semibold duration-200 ' : 'z-20 hover:text-white font-semibold duration-200'}
                   onClick={() => {
                     setSelectedPage({

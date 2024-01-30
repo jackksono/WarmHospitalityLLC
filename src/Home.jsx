@@ -31,7 +31,7 @@ const Home = () => {
           <div className='min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-BG'>
                 <div className='absolute inset-0 flex items-center justify-center sm:fixed bg-color-BG bg-opacity-60'>
                     <div className='flex flex-row justify-center sm:mt-60 '>
-                        <div className='z-0 parallax-element' data-speed='0.05' style={{ zIndex: 1 }}>
+                        <div className='z-0 parallax-element' data-speed='0.05' style={{ zIndex: -1 }}>
                             <img 
                               className='h-[400px] w-[180px] object-cover mix-blend-multiply 
                               sm:object-fill sm:h-[850px] sm:w-[500px] 
@@ -39,7 +39,7 @@ const Home = () => {
                               src={imageOne} 
                               alt='imageOne' />
                         </div>
-                        <div className='parallax-element' data-speed='0.05' style={{ zIndex: 1 }}>
+                        <div className='parallax-element' data-speed='0.05' style={{ zIndex: -1 }}>
                         <img 
                               className='h-[400px] w-[180px] object-cover mix-blend-multiply
                               sm:object-fill sm:h-[850px] sm:w-[500px] 
