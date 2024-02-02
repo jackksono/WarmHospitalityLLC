@@ -46,6 +46,7 @@ const NavBar = () => {
   }
   //FIGURE OUT MENU CONFIG
   //Configure mobile screening
+    //Configure css for mobile application
 
 
   return (
