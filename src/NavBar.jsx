@@ -44,11 +44,7 @@ const NavBar = () => {
     tag.name = tag.name === "menu" ? "close" : "menu"
     navLinks.classList.toggle('hidden', tag.name === "menu");
   }
-  //FIGURE OUT MENU CONFIG
-  //Configure mobile screening
-    //Configure css for mobile application
-
-
+  
   return (
     <>
         <div className='items-start justify-start w-1/4 h-screen bg-fixed bg-center bg-cover bg-color-BG sm:flex-none sm:w-screen sm:overflow-hidden sm:overflow-y-hidden sm:relative sm:h-40 bg-BG'
@@ -108,9 +104,6 @@ const NavBar = () => {
                   }}>
                     <Link to='/contact' className='z-20 hover:text-white'>CONTACT</Link>
                   </button>
-                    
-                   
-                    
                 </div>
                 
                 <div className='absolute flex items-center justify-center visible -mt-40 transform -translate-x-1/2 sm:z-10 sm:-mt-3 left-1/2 bg-opacity-60'>
