@@ -12,6 +12,8 @@ const Services = lazy(() => import('./Services'))
 
 const NavBar = () => {
 
+  //Configure sandwich menu for mobile version and side bar
+      //allow navbar to toggle in mobile form
   const [ selectedPage, setSelectedPage ] = useState({
     home: true,
     about: false,
