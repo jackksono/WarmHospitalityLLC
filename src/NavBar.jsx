@@ -14,6 +14,10 @@ const NavBar = () => {
 
   //Configure sandwich menu for mobile version and side bar
       //allow navbar to toggle in mobile form
+      //css for navBar 
+        //hamburger
+        //drop down options 
+        
   const [ selectedPage, setSelectedPage ] = useState({
     home: true,
     about: false,
