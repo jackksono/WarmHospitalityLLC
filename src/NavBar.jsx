@@ -12,7 +12,9 @@ const Services = lazy(() => import('./Services'))
 
 const NavBar = () => {
 
-  //Configure sandwich menu for mobile version and side bar
+  //Meet for future changes
+      //other than mobile hamburg menu
+          //desktop available
   
   const [ selectedPage, setSelectedPage ] = useState({
     home: true,
