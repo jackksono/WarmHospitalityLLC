@@ -11,8 +11,7 @@ import FBConsulting from '../src/images/services/FBConsulting.jpg'
 import Footer from './Footer'
 
 const Services = () => {
-  //add in contact button for each service that would autofill selected service in contact page w/ route
-    //propper navigation for routing to appropriate services
+  
     useEffect(() => {
        
         const handleScroll = () => {
