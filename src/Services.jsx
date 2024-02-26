@@ -10,6 +10,8 @@ import SocialMedia from '../src/images/services/SocialMedia.jpg'
 import FBConsulting from '../src/images/services/FBConsulting.jpg'
 import Footer from './Footer'
 
+//button to each service w requested service for contact
+    //Add contact form to bottom of service page 
 const Services = () => {
   
     useEffect(() => {
