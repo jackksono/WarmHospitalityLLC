@@ -6,7 +6,6 @@ import imageTwo from '../src/images/stock/Home2.jpg'
 import Footer from '../src/Footer'
 
 const Home = () => {
-//ADjust pictures for mobile 
     useEffect(() => {
        
         const handleScroll = () => {

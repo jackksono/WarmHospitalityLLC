@@ -7,8 +7,6 @@ import TeamImage from '../src/images/stock/TeamImage.jpg'
 import Footer from './Footer'
 
 const About = () => {
-//increase margins on left and right 
-  //increase margin bottom
     useEffect(() => {
        
         const handleScroll = () => {

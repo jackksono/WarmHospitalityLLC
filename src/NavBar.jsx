@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { lazy, Suspense } from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
 import { useClickAway } from "@uidotdev/usehooks";
-//fix mobile version with hamburger drop down
 import logo from '../src/images/logo/1 (4).png'
 
 const Home = lazy(() => import('./Home'))
