@@ -10,10 +10,6 @@ const Contact = lazy(() => import('./Contact'))
 const Services = lazy(() => import('./Services'))
 
 const NavBar = () => {
-
-  //Meet for future changes
-      //other than mobile hamburg menu
-          //desktop available
   
   const [ selectedPage, setSelectedPage ] = useState({
     home: true,
@@ -30,7 +26,6 @@ const NavBar = () => {
     }
     tag.name = tag.name === "close" ? "menu" : "close"
     navLinks.classList.toggle('hidden')
-    // console.log(navLinks.classList)
   })
 
   const onToggleMenu = () => {
