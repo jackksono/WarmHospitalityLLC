@@ -14,26 +14,6 @@ const Contact = () => {
     const [ result, showResult ] = useState(false) 
     const [ validEmail, setValidEmail ] = useState(false)
 
-
-    // useEffect(() => {
-       
-    //   const handleScroll = () => {
-    //     const scrollPosition = window.scrollY;
-    //     const parallaxElements = document.querySelectorAll('.parallax-element');
-  
-    //     parallaxElements.forEach((element) => {
-    //       const speed = element.dataset.speed;
-    //       element.style.transform = `translateY(${scrollPosition * speed}px)`;
-    //     });
-    //   };
-  
-    //   window.addEventListener('scroll', handleScroll);
-
-    //   return () => {
-    //     window.removeEventListener('scroll', handleScroll);
-    //   };
-    // }, []);
-
     const handleChange = (e) => {
         const name = e.target.name
         const value = e.target.value
